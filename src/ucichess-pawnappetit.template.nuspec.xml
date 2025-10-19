@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd nuspec.xsd">
+    <metadata>
+        <owners>Bertram Fey</owners>
+        <id>ucichess-pawnappetit</id>
+        <version>%%VERSION%%</version>
+        <title>Pawn Appetit</title>
+        <authors>The Pawn Appetit Authors</authors>
+        <summary>
+            The Ultimate Chess Toolkit – a modern, open-source, cross-platform GUI to analyze games, train
+            repertoires, and manage engines and databases.
+        </summary>
+        <description>Pawn Appétit is a modern, open-source and cross-platform chess application designed for players who
+            demand professional-grade analysis tools without the premium price tag. Built with Rust and Tauri for
+            exceptional performance, it delivers advanced chess engine integration, game analysis, opening repertoire
+            training, and more—all wrapped in an intuitive interface.
+        </description>
+        <projectUrl>https://github.com/Pawn-Appetit/pawn-appetit</projectUrl>
+        <licenseUrl>https://github.com/Pawn-Appetit/pawn-appetit/blob/main/LICENSE</licenseUrl>
+        <tags>uci chess</tags>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools"/>
+    </files>
+</package>
