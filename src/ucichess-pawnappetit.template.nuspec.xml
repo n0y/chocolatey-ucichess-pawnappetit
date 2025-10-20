@@ -18,7 +18,9 @@
             training, and more—all wrapped in an intuitive interface.
         </description>
         <projectUrl>https://github.com/Pawn-Appetit/pawn-appetit</projectUrl>
+        <releaseNotes>https://github.com/Pawn-Appetit/pawn-appetit/releases</releaseNotes>
         <licenseUrl>https://github.com/Pawn-Appetit/pawn-appetit/blob/main/LICENSE</licenseUrl>
+        <packageSourceUrl>https://github.com/n0y/chocolatey-ucichess-pawnappetit</packageSourceUrl>
         <tags>uci chess</tags>
     </metadata>
     <files>
