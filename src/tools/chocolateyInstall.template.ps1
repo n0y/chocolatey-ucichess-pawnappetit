@@ -28,7 +28,7 @@ $uciChessPkgShortcutPath = Join-Path $uciChessPkgShortcutDir "Pawn Appetit.lnk"
 $packageArgs = @{
     PackageName    = $uciChessPackageName
     ChecksumType   = 'sha256'
-    Url64bit       = 'https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v%%VERSION%%/Pawn.Appetit_%%VERSION%%_x64-setup.exe'
+    Url64bit       = 'https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v%%VERSION%%/Pawn.Appetit_%%VERSION%%_x64-setup_windows.exe'
     Checksum64     = '%%CHECKSUM%%'
     ChecksumType64 = 'sha256'
     SilentArgs     = "/S /D=$uciChessPkgInstallDir"
