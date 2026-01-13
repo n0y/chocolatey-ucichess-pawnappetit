@@ -1,7 +1,7 @@
 $Props = convertfrom-stringdata (get-content versions.properties | Select-String -pattern "^#" -NotMatch)
 $UpstreamVersion = $Props.UPSTREAM_VERSION
 
-$FileUrl = "https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v$UpstreamVersion/Pawn.Appetit_${UpstreamVersion}_x64-setup_windows.exe"
+$FileUrl = "https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v$UpstreamVersion/Pawn.Appetit_${UpstreamVersion}_x64-setup.exe"
 
 "Building Upstream Version: $UpstreamVersion from url $FileUrl"
 ""
